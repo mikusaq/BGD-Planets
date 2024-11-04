@@ -726,6 +726,7 @@ GameObject:
   - component: {fileID: 842616000}
   - component: {fileID: 842615999}
   - component: {fileID: 842615998}
+  - component: {fileID: 842616001}
   m_Layer: 0
   m_Name: Mercury
   m_TagString: Untagged
@@ -815,6 +816,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &842616001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842615997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a337aa41010d2e4a92f2bf418e89996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 842615997}
+  speed: 5
 --- !u!1 &864663174
 GameObject:
   m_ObjectHideFlags: 0
@@ -1078,6 +1093,7 @@ GameObject:
   - component: {fileID: 1560237931}
   - component: {fileID: 1560237930}
   - component: {fileID: 1560237932}
+  - component: {fileID: 1560237933}
   m_Layer: 0
   m_Name: Earth
   m_TagString: Untagged
@@ -1167,6 +1183,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1574363133}
   speed: 7
+--- !u!114 &1560237933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560237929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a337aa41010d2e4a92f2bf418e89996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1560237929}
+  speed: 5
 --- !u!1 &1574363133
 GameObject:
   m_ObjectHideFlags: 0
@@ -1647,6 +1677,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1976793764}
   - component: {fileID: 1976793762}
+  - component: {fileID: 1976793765}
   m_Layer: 0
   m_Name: Venus
   m_TagString: Untagged
@@ -1687,6 +1718,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1976793765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976793761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a337aa41010d2e4a92f2bf418e89996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1976793761}
+  speed: 5
 --- !u!1 &2033542162
 GameObject:
   m_ObjectHideFlags: 0
@@ -1698,6 +1743,7 @@ GameObject:
   - component: {fileID: 2033542165}
   - component: {fileID: 2033542164}
   - component: {fileID: 2033542163}
+  - component: {fileID: 2033542166}
   m_Layer: 0
   m_Name: Mars
   m_TagString: Untagged
@@ -1787,3 +1833,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2033542166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033542162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a337aa41010d2e4a92f2bf418e89996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 2033542162}
+  speed: 5
